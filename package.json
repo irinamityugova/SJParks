@@ -3,6 +3,9 @@
   "version": "1.1.0",
   "description": "An app made to help the City of San Jose communicate with residents a little better. ",
   "main": "index.js",
+  "engines": {
+    "node": "8.10.0"
+  },
   "scripts": {
     "heroku-postbuild": "cd client && npm install && npm run build",
     "setup": "npm install && cd client && npm install",
